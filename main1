@@ -39,7 +39,6 @@ int main(void)
 			count++;
 		} else {
 			b[i] = a[i];
-			count++;
 		}
 	}
 
@@ -60,7 +59,7 @@ int main(void)
 	}
 
 	printf("\nSum b = %lld\n", sum);
-	printf("Average = %.2f\n", average);
+	printf("Replacemens = %d\n", count);
 
 	return 0;
 	}
